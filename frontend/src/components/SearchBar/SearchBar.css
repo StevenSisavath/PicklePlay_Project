@@ -1,0 +1,28 @@
+.searchlabel{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    background-color: #1A1A1D;
+    width: 11rem;
+}
+
+.searchtool{
+    display: flex;
+    border: 2px solid black;
+    width: 100%
+}
+
+.searchbutton{
+    background-color: #0b0c10;
+    color: white;
+    padding: 0.25rem 0.25rem;
+    border: transparent;
+}
+
+.searchbutton:hover{
+    background-color:#1f2833 ;
+    cursor: pointer;
+}

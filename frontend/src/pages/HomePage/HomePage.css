@@ -1,0 +1,13 @@
+/* .carflex {
+    display: flex;
+    border: solid black 1px;
+    justify-content: center;
+    width: fit-content;
+} */
+
+.homepagebody{
+    display: grid;
+    /* background-image: linear-gradient(to bottom right, rgb(40, 193, 204), rgb(24, 146, 51)); */
+    background-color: #1f2833;
+    justify-content: center;
+}

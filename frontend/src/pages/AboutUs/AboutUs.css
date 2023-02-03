@@ -1,0 +1,44 @@
+.aboutusbody{
+    display: grid;
+    /* background-image: linear-gradient(to bottom right, rgb(40, 193, 204), rgb(24, 146, 51)); */
+    background-color: #1f2833;
+    justify-content: center;
+}
+
+.videoplayer{
+    width: min-content;
+    color: #66fcf1
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    border: 4px solid rgb(92, 90, 90);
+}
+
+.video:hover{
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.videotitle{
+    display: flex;
+    justify-content: center;
+}
+
+.aboutustitle{
+    display: flex;
+    justify-content: center;
+    color: #66fcf1;
+}
+
+.aboutusread{
+    width: 648px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #1A1A1D;
+    color: white;
+}

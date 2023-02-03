@@ -1,0 +1,63 @@
+.homecontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.tournamentstitle{
+    margin-bottom: 4rem;
+    color: #66fcf1;
+}
+
+.create_tourney {
+    background-color: #0b0c10;
+    border: solid #45a29e 2px;
+    font-size: larger;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #66fcf1;
+}
+
+.create_tourney:hover {
+    background-color: #1f2833;
+    box-shadow: 0 0 3px #66fcf1;
+    cursor: pointer;
+}
+
+.tournamentthumbnails{
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: row;
+    width: 100%;
+    
+}
+.tournament_thumbnail {
+    border: solid black 2px;
+    background-color: #0b0c10;
+    width: 14.5rem;
+    display: flex;
+    grid-template-columns: 25rem ;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    color: #66fcf1;
+    border-radius: 10px;
+    
+}
+
+.tournament_thumbnail:hover {
+    background-color: #1f2833;
+    box-shadow: 10px;
+    cursor: pointer;
+}
+
+.thumbnailpicture{
+    width: 75%;
+}
+

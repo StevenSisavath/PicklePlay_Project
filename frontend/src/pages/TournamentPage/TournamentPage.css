@@ -1,0 +1,113 @@
+.tournamentdetails{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    width: 800px;
+    background-color: #0b0c10;
+    padding: 1rem;
+    margin-top: 5rem;
+}
+
+.tournamentpagecontainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.tournamentnametitle{
+    border-bottom: 1px solid white;
+    color: #66fcf1;
+}
+
+.registerupdatepicturecontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1rem;
+}
+
+.registerupdatecontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.registerupdatebuttons{
+    background-color: #0b0c10;
+    border: solid #45a29e 2px;
+    font-size: larger;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 5px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #66fcf1;
+}
+
+.registerupdatebuttons:hover{
+    background-color: #1f2833;
+    box-shadow: 0 0 3px #66fcf1;
+    cursor: pointer;
+}
+
+.playersregistered{
+    color: white;
+}
+
+.line{
+    margin-top: 1rem;
+    border-bottom: 1px solid white;
+}
+
+.playersregisteredtitle{
+    margin-top: 2rem;
+    border-bottom: 1px solid white;
+    color: #66fcf1;
+}
+
+.tournamentformat{
+    color: white;
+}
+
+
+
+
+
+.FilteredSearches{
+    display: flex;
+    height: 20vh;
+    overflow: auto;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.TableHeaders{
+    justify-content: left;
+    font-weight: bold;
+    background-color: #000000a7;
+    color: white;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+  }
+  
+  td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+    font-size: large;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddda4;
+  }
+  /* tr:nth-child(odd) {
+    background-color: #571515a4;
+  } */
+
+ 

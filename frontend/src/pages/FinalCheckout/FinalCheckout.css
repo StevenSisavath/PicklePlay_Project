@@ -1,0 +1,147 @@
+/* .FormGroup {
+	margin: 0 15px 20px;
+	padding: 0;
+	border-style: none;
+	background-color: #7795f8;
+	will-change: opacity, transform;
+	box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08), inset 0 1px 0 #829fff;
+	border-radius: 4px;
+}
+
+.FormRow {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-left: 15px;
+	border-top: 1px solid #819efc;
+}
+
+.StripeElement--webkit-autofill {
+	background: transparent !important;
+}
+
+.StripeElement {
+	width: 100%;
+	padding: 11px 15px 11px 0;
+}
+
+.PayButton {
+	display: block;
+	font-size: 16px;
+	width: calc(100% - 30px);
+	height: 40px;
+	margin: 40px 15px 0;
+	background-color: #18b473;
+	box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08), inset 0 1px 0 #ffb9f6;
+	border-radius: 4px;
+	color: #fff;
+	font-weight: 600;
+	cursor: pointer;
+	transition: all 100ms ease-in-out;
+	will-change: transform, background-color, box-shadow;
+	border: none;
+}
+
+.PayButton:active {
+	background-color: #44d864;
+	box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08), inset 0 1px 0 #e298d8;
+	transform: scale(0.99);
+}
+
+.FinalCheckout {
+	margin-left: 25%;
+	margin-top: 5%;
+	margin-right: 25%;
+}
+
+.paymentpagecontainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.tournamentdetails{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    background-color: #0b0c10;
+    padding: 1rem;
+    margin-top: 5rem;
+} */
+
+
+
+/* h1,
+h3 {
+	text-align: center;
+} */
+
+.prepaymentcheck{
+	display: flex;
+	border: 1px black solid;
+	flex-direction: column;
+	align-items: center;
+	background-color: #0b0c10;
+	margin-top: 5rem;
+	padding: 1rem;
+}
+.prepaymentcheck1{
+	display: flex;
+	border: 1px black solid;
+	flex-direction: column;
+	align-items: center;
+	background-color: #0b0c10;
+	margin-top: 16rem;
+	padding: 1rem;
+}
+
+.prepaymentcontainer{
+	display: flex;
+	justify-content: center;
+}
+
+.paybutton{
+    background-color: #0b0c10;
+    border: solid #45a29e 2px;
+    font-size: larger;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 5px;
+    margin-top: 1rem;
+    color: #66fcf1;
+}
+
+.tournamentnameforpayment{
+	color: #66fcf1;
+
+}
+
+.paybutton:hover{
+    background-color: #1f2833;
+    box-shadow: 0 0 3px #66fcf1;
+    cursor: pointer;
+}
+
+.white{
+	color: white;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+}
+.white1{
+	color: white;
+	margin-top: 1rem;
+}
+.white2{
+	color: white;
+	margin-bottom: 1rem;
+}
+
+.paytitle{
+    border-bottom: 1px solid white;
+    color: #66fcf1;
+}
+.paytitle1{
+
+    color: #66fcf1;
+}
